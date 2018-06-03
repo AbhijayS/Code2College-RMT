@@ -1,0 +1,23 @@
+{
+  "name": "c2c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.12.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "faker": "^4.1.0",
+    "google-spreadsheet": "^2.0.4",
+    "google-spreadsheet-to-json": "^1.0.0",
+    "googleapis": "^27.0.0",
+    "opn": "^5.3.0",
+    "sheetsu-node": "0.0.7"
+  }
+}

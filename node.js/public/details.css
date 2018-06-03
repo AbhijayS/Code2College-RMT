@@ -1,0 +1,26 @@
+#general-data{
+  width: 70%;
+  text-align: left;
+}
+
+#general-data .row{
+  padding-bottom: 5%;
+}
+
+#general-data .row .progress{
+  margin-top: 3%;
+  height: 50px;
+}
+
+#navbarMenu li{
+  margin-right: 5%;
+}
+
+#data-table{
+  width: 70%;
+  padding: 2%;
+}
+
+#data-table #head{
+  margin-bottom: 5%;
+}

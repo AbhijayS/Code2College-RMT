@@ -1,0 +1,33 @@
+Ibraheem Moosa
+Abhijay Saini
+{Ibraheem Moosa=["3 to 5", "Engineering and Technology (software developer,  mechanical engineer)", "Like totally for sure", "Yes", "Yes", "Yes", "Yes"], Abhijay Saini=["1 or 2", "Engineering and Technology (software developer,  mechanical engineer)", "Like totally for sure", "Yes", "Yes", "Yes", "Yes"]}
+
+HashMap<Integer, ArrayList<String>> qa = new HashMap<Integer, ArrayList<String>>();
+
+String[] array = {"None","1 or 2","3 to 5","6-10","10+"};
+ArrayList<String> list = new ArrayList<>(Arrays.asList(array));
+qa.put(0, list);
+
+array = {"Liberal arts \(philosophy teacher\)","Engineering and Technology \(software developer, mechanical engineer\)","Science and\/or Medicine \(doctor\)","Skilled Trades \(electrician, welder, plumber)","Business (accounting, marketing)","Service (retail, hospitality, waitress, customer service representative)","Law (lawyer)"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(1, list);
+
+array = {"Yes","Maybe","No"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(2, list);
+
+array = {"Yes","No","Maybe"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(3, list);
+
+array = {"Yes","No"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(4, list);
+
+array = {"Yes","No"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(5, list);
+
+array = {"Yes","No"};
+list = new ArrayList<>(Arrays.asList(array));
+qa.put(6, list);
