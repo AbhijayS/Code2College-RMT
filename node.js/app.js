@@ -5,6 +5,7 @@ const exphbs = require('express-handlebars')
 var bodyparser = require('body-parser')
 const app = express()
 const faker = require('faker');
+require('dotenv').config();
 
 var optWeights = JSON.parse(fs.readFileSync('option-weights.json', 'utf8'));
 var quesWeights = JSON.parse(fs.readFileSync('question-weights.json', 'utf8'));
@@ -68,7 +69,7 @@ app.get('/view-details', function(req, res){
 	var studentList = [];
 	var fakeNames = [];
 	gsjson({
-		spreadsheetId: '1gV6eBWqUHXndSvco8c6TLY9q-tjnyHk-toUFzouEGE8',
+		spreadsheetId: process.env.SPREADSHEETKEY,
 		// other options...
 	})
 	.then(function(data) {
